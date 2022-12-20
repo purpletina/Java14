@@ -1,7 +1,7 @@
 package myJava14;
 import java.io.*;
 public class class04 {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException{
 		char data[]=new char[128];
 		FileReader fr=new FileReader("c:\\Java\\donkey.txt");
 		int num=fr.read(data);
